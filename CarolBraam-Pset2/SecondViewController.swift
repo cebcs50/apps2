@@ -1,9 +1,9 @@
 //
-//  secondVieuwControllerViewController.swift
+//  SecondViewController.swift
 //  pset2
 //
-//  Created by Femke van Son on 07-11-16.
-//  Copyright © 2016 Femke van Son. All rights reserved.
+//  Created by Carol Braam on 16-04-17.
+//  Copyright © 2017 Carol Braam. All rights reserved.
 //
 
 import UIKit
@@ -96,6 +96,15 @@ class secondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // give the story text to the next view
+        if let thirdVC = segue.destination as? thirdViewController {
+            thirdVC.words = words
+        }
+    }
+
     /*
     // MARK: - Navigation
 
@@ -106,12 +115,5 @@ class secondViewController: UIViewController {
     }
     */
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        // give the story text to the next view
-        if let thirdVC = segue.destination as? thirdViewController {
-            thirdVC.words = words
-        }
-    }
-
+    
 }

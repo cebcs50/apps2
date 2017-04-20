@@ -1,9 +1,9 @@
 //
-//  thirdViewController.swift
+//  ThirdViewController.swift
 //  pset2
 //
-//  Created by Femke van Son on 07-11-16.
-//  Copyright © 2016 Femke van Son. All rights reserved.
+//  Created by Carol Braam on 16-04-17.
+//  Copyright © 2017 Carol Braam. All rights reserved.
 //
 
 import UIKit

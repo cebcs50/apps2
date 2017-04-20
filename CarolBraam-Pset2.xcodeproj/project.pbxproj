@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		36C21E421EA8D83D00234489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C21E411EA8D83D00234489 /* AppDelegate.swift */; };
 		36C21E441EA8D83D00234489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C21E431EA8D83D00234489 /* ViewController.swift */; };
-		36C21E471EA8D83D00234489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E451EA8D83D00234489 /* Main.storyboard */; };
 		36C21E491EA8D83D00234489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E481EA8D83D00234489 /* Assets.xcassets */; };
 		36C21E4C1EA8D83D00234489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E4A1EA8D83D00234489 /* LaunchScreen.storyboard */; };
 		36C21E561EA8D89200234489 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C21E551EA8D89200234489 /* ThirdViewController.swift */; };
 		36C21E581EA8D8AA00234489 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C21E571EA8D8AA00234489 /* SecondViewController.swift */; };
+		36C21E5A1EA8D94400234489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E591EA8D94400234489 /* Main.storyboard */; };
+		36C21E621EA8DA9300234489 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E5B1EA8DA9300234489 /* madlib0_simple.txt */; };
+		36C21E631EA8DA9300234489 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E5C1EA8DA9300234489 /* madlib1_tarzan.txt */; };
+		36C21E641EA8DA9300234489 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E5D1EA8DA9300234489 /* madlib2_university.txt */; };
+		36C21E651EA8DA9300234489 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E5E1EA8DA9300234489 /* madlib3_clothes.txt */; };
+		36C21E661EA8DA9300234489 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E5F1EA8DA9300234489 /* madlib4_dance.txt */; };
+		36C21E671EA8DA9300234489 /* madlibs.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C21E601EA8DA9300234489 /* madlibs.png */; };
+		36C21E681EA8DA9300234489 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C21E611EA8DA9300234489 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36C21E3E1EA8D83D00234489 /* CarolBraam-Pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarolBraam-Pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C21E411EA8D83D00234489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C21E431EA8D83D00234489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36C21E461EA8D83D00234489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36C21E481EA8D83D00234489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C21E4B1EA8D83D00234489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36C21E4D1EA8D83D00234489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36C21E551EA8D89200234489 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		36C21E571EA8D8AA00234489 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		36C21E591EA8D94400234489 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		36C21E5B1EA8DA9300234489 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
+		36C21E5C1EA8DA9300234489 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
+		36C21E5D1EA8DA9300234489 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
+		36C21E5E1EA8DA9300234489 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
+		36C21E5F1EA8DA9300234489 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
+		36C21E601EA8DA9300234489 /* madlibs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = madlibs.png; sourceTree = "<group>"; };
+		36C21E611EA8DA9300234489 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +76,14 @@
 				36C21E431EA8D83D00234489 /* ViewController.swift */,
 				36C21E571EA8D8AA00234489 /* SecondViewController.swift */,
 				36C21E551EA8D89200234489 /* ThirdViewController.swift */,
-				36C21E451EA8D83D00234489 /* Main.storyboard */,
+				36C21E591EA8D94400234489 /* Main.storyboard */,
+				36C21E5B1EA8DA9300234489 /* madlib0_simple.txt */,
+				36C21E5C1EA8DA9300234489 /* madlib1_tarzan.txt */,
+				36C21E5D1EA8DA9300234489 /* madlib2_university.txt */,
+				36C21E5E1EA8DA9300234489 /* madlib3_clothes.txt */,
+				36C21E5F1EA8DA9300234489 /* madlib4_dance.txt */,
+				36C21E601EA8DA9300234489 /* madlibs.png */,
+				36C21E611EA8DA9300234489 /* Story.swift */,
 				36C21E481EA8D83D00234489 /* Assets.xcassets */,
 				36C21E4A1EA8D83D00234489 /* LaunchScreen.storyboard */,
 				36C21E4D1EA8D83D00234489 /* Info.plist */,
@@ -130,8 +151,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C21E4C1EA8D83D00234489 /* LaunchScreen.storyboard in Resources */,
+				36C21E651EA8DA9300234489 /* madlib3_clothes.txt in Resources */,
+				36C21E631EA8DA9300234489 /* madlib1_tarzan.txt in Resources */,
+				36C21E671EA8DA9300234489 /* madlibs.png in Resources */,
 				36C21E491EA8D83D00234489 /* Assets.xcassets in Resources */,
-				36C21E471EA8D83D00234489 /* Main.storyboard in Resources */,
+				36C21E621EA8DA9300234489 /* madlib0_simple.txt in Resources */,
+				36C21E641EA8DA9300234489 /* madlib2_university.txt in Resources */,
+				36C21E661EA8DA9300234489 /* madlib4_dance.txt in Resources */,
+				36C21E5A1EA8D94400234489 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,20 +173,13 @@
 				36C21E441EA8D83D00234489 /* ViewController.swift in Sources */,
 				36C21E561EA8D89200234489 /* ThirdViewController.swift in Sources */,
 				36C21E421EA8D83D00234489 /* AppDelegate.swift in Sources */,
+				36C21E681EA8DA9300234489 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		36C21E451EA8D83D00234489 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36C21E461EA8D83D00234489 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		36C21E4A1EA8D83D00234489 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
